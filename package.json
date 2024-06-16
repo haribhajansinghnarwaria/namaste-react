@@ -1,0 +1,22 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react course getting learned by hari",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Haribhajan",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haribhajansinghnarwaria/namaste-react.git"
+  },
+  "keywords": [
+    "Hari"
+  ],
+  "bugs": {
+    "url": "https://github.com/haribhajansinghnarwaria/namaste-react/issues"
+  },
+  "homepage": "https://github.com/haribhajansinghnarwaria/namaste-react#readme"
+}
