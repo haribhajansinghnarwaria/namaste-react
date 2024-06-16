@@ -6,17 +6,7 @@
   "scripts": {
     "test": "jest"
   },
+  "git" : "",
   "author": "Haribhajan",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/haribhajansinghnarwaria/namaste-react.git"
-  },
-  "keywords": [
-    "Hari"
-  ],
-  "bugs": {
-    "url": "https://github.com/haribhajansinghnarwaria/namaste-react/issues"
-  },
-  "homepage": "https://github.com/haribhajansinghnarwaria/namaste-react#readme"
+  "license": "ISC"
 }
