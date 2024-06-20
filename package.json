@@ -6,7 +6,18 @@
   "scripts": {
     "test": "jest"
   },
-  "git" : "",
+  "git": "",
   "author": "Haribhajan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "BrowsersList" : [
+    "last 2 versions"
+  ]
 }
