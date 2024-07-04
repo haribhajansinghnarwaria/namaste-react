@@ -2,6 +2,10 @@ import React from "react";
 import ReactDOM  from "react-dom/client";
 import Header  from "./Components/Header";
 import Body from "./Components/Body";
+import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import Error from "./Components/Error";
 
 //---------------till episode 5
 // const heading = React.createElement("h1", {id:"heading"}, "Hello World From React!");
@@ -2127,4 +2131,23 @@ const AppLayout = () => {
         </div>
     )
 }
-root.render(<AppLayout/>)
+
+const appRourter = createBrowserRouter ([
+    {
+        path : "/",
+        element : <AppLayout/>,
+        errorElement : <Error/>// To diplay cutomize compomnent on error 
+    },
+    {
+        path : "/about",
+        element : <About/>  
+    },
+    {
+        path : "/contact",
+        element : <Contact/>  
+    }
+
+])
+
+
+root.render(<RouterProvider router = {appRourter}/>);
